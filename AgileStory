@@ -52,7 +52,7 @@ Acceptance Criteria:
 •	Adding a member will not affect previous members
 •	Deleting a member will not affect previous members
 ------------------------------------------------------------------------------------------------------------------------------------------
-A store manager should be able to add and/or delete items so that the inventory list is up to date
+As a store manager should be able to add and/or delete items so that the inventory list is up to date
 Acceptance Criteria:
 •	Adding  and deleting to the list should be simple
 •	An option to confirm deleting an item
@@ -61,7 +61,7 @@ Definition of Done:
 •	Deleting an item will only delete that specific item and nothing else.
 ------------------------------------------------------------------------------------------------------------------------------------------
 
-A user should be able to enter an item name and get the quantity of the item sold and the total revenue for the item so that each item is accounted for and to get the revenue of said item.
+As a store manager I should be able to enter an item name and get the quantity of the item sold and the total revenue for the item so that each item is accounted for and to get the revenue of said item.
 Acceptance Criteria:
 •	An option to enter and item by name
 •	An option to get quantity of the item sold
@@ -80,7 +80,7 @@ Definition of Done:
 •	The inventor file is updated every time a change is made.
 •	The membership file is updated every time a change is made.
 ------------------------------------------------------------------------------------------------------------------------------------------
-As an Store Accountant/Store Manager I would like the program to update automatically accounts to determine if they are executive/regular memberships. 
+As a Store Accountant/Store Manager I would like the program to update automatically accounts to determine if they are executive/regular memberships. 
 Acceptance Criteria:
 •	All memberships are updated every time the program is executed.
 •	Once a new year begins, checks all memberships and changes them to executive or regular based on if the membership owner has paid their subscription fees.
@@ -95,5 +95,5 @@ Acceptance Criteria:
 •	Inform me the amount they could have saved if they would have upgraded to be included in email/newsletter.
 Definition of Done:
 •	Have a variable that keeps track of potential rebate. Once variable values exceeds $110.00 inform the user and save membership name and email/address to a file. 
-•	This variable is set to $0.00 after new year from the start of the individual membership.
+•	This variable is set to $0.00 after every year from the start of the individual membership.
 
