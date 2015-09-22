@@ -69,6 +69,11 @@ Acceptance Criteria:
 Definition of Done:
 •	Total revenue must be accurate
 •	Quantity must be accurate
-
-As a store manager I should be able to enter an item and get how much revenue the item has generated and the amount of product is left.
+------------------------------------------------------------------------------------------------------------------------------------------
+As a store manager I would like the ability to save all changes between executions.
+Acceptance Criteria:
+•	I would like to save all current memberships in between each use of the program (save every time a member is deleted or added).
+•	I would like to save all current inventor and prices in between each use of the program(updates a file with all the inventor and prices every time something is changed).
+Definition of Done:
+•	Membership file list is called every time the program starts.
 
