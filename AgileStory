@@ -1,4 +1,4 @@
-1. 
+1. Score: 
 As a store manager of the program I would like the ability to print a detailed report of sales for any given day requested so that I may keep track of total revenue.
 Acceptance Criteria:
 •	Reports should include a list of items and quantities sold on that say.
@@ -57,7 +57,7 @@ Acceptance Criteria:
 •	Adding a member will not affect previous members
 •	Deleting a member will not affect previous members
 ------------------------------------------------------------------------------------------------------------------------------------------
-6. (BASE LINE)
+6. (BASE LINE)  Score: 1
 As a store manager should be able to add and/or delete items so that the inventory list is up to date
 Acceptance Criteria:
 •	Adding  and deleting to the list should be simple
