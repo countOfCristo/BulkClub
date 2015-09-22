@@ -1,0 +1,74 @@
+As a store manager of the program I would like the ability to print a detailed report of sales for any given day requested so that I may keep track of total revenue.
+Acceptance Criteria:
+•	Reports should include a list of items and quantities sold on that say.
+•	Reports should include a list of members who shopped that day.
+•	Reports should include total revenue for the given day.
+•	Include a number of executive members and regular members who shopped that day
+•	An option to generate reports by membership type.
+Definition of Done:
+•	Program offers clear commands as to request of day of reports, and an option to print an individual membership sales report.
+•	Reports can be saved to a file.
+•	Reports have a clear print format
+-------------------------------------------------------------------------------------------------------------------------------------
+As a store manager I would like the ability to request a detailed report of purchases for all members.
+Acceptance Criteria:
+•	Request a report of total purchases for all members 
+•	The report should be sorted by membership number
+•	Reports should include a grand total of purchases
+•	User should have the ability to save reports to a file
+•	User should have the ability to display reports
+•	User should have the option to choose to generate different days
+Definition of Done:
+•	Passes all tests: checks values of report requested prior to saving.
+•	Reports have a complete list of purchases
+•	Save file option checks if file name already exists before saving
+•	The reports are in a clear format
+------------------------------------------------------------------------------------------------------------------------------------------
+As a store manager I would like the option to generate a report of the quantity of each item sold.
+Acceptance Criteria:
+•	Reports generate the total of that item sold
+•	Reports display the total revenue that item has generated
+•	User should have the option to save report or just display.
+•	User should have the option to generate a report for a single day
+•	User should have the option to generate a report for a total from several days.
+Definition of Done:
+•	Program generates reports for that day then checks prior to saving and moving to next day.
+•	Reports are in a clear format
+•	Program checks if file name already exists prior to saving (option to overwrite file name).
+-----------------------------------------------------------------------------------------------------------------------------------------
+As a store accountant I would like to generate a report of all rebates of Executive members.
+Acceptance Criteria:
+•	Generate a report of total rebates for all executive members.
+•	Report includes the addresses of members
+Definition of Done:
+•	The program generates and saves 
+•	The program is in a clear format
+------------------------------------------------------------------------------------------------------------------------------------------
+As a store manager I should be able to add and delete members so that I can add new memberships and delete the ones that are no longer part of the club.
+Acceptance Criteria:
+•	An option to add a membership and include all the necessary data.
+•	An option to delete a member and their data from the file.
+ Definition of Done:
+•	Adding a member will not affect previous members
+•	Deleting a member will not affect previous members
+------------------------------------------------------------------------------------------------------------------------------------------
+A store manager should be able to add and/or delete items so that the inventory list is up to date
+Acceptance Criteria:
+•	Adding  and deleting to the list should be simple
+•	An option to confirm deleting an item
+Definition of Done:
+•	Adding an item should not affect the previous items
+•	Deleting an item will only delete that specific item and nothing else.
+------------------------------------------------------------------------------------------------------------------------------------------
+
+A user should be able to enter an item name and get the quantity of the item sold and the total revenue for the item so that each item is accounted for and to get the revenue of said item.
+Acceptance Criteria:
+•	An option to enter and item by name
+•	An option to get quantity of the item sold
+•	An option to get the revenue generated from the item
+Definition of Done:
+•	Total revenue must be accurate
+•	Quantity must be accurate
+
+As a store manager I should be able to enter an item and get how much revenue the item has generated and the amount of product is left.
+
