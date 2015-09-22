@@ -57,7 +57,7 @@ Acceptance Criteria:
 •	Adding a member will not affect previous members
 •	Deleting a member will not affect previous members
 ------------------------------------------------------------------------------------------------------------------------------------------
-6.
+6. (BASE LINE)
 As a store manager should be able to add and/or delete items so that the inventory list is up to date
 Acceptance Criteria:
 •	Adding  and deleting to the list should be simple
