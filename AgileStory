@@ -73,7 +73,27 @@ Definition of Done:
 As a store manager I would like the ability to save all changes between executions.
 Acceptance Criteria:
 •	I would like to save all current memberships in between each use of the program (save every time a member is deleted or added).
-•	I would like to save all current inventor and prices in between each use of the program(updates a file with all the inventor and prices every time something is changed).
+•	I would like to save all current inventor and prices in between each use of the program (updates a file with all the inventor and prices every time something is changed).
 Definition of Done:
 •	Membership file list is called every time the program starts.
+•	Inventory file is called every time the program starts.
+•	The inventor file is updated every time a change is made.
+•	The membership file is updated every time a change is made.
+------------------------------------------------------------------------------------------------------------------------------------------
+As an Store Accountant/Store Manager I would like the program to update automatically accounts to determine if they are executive/regular memberships. 
+Acceptance Criteria:
+•	All memberships are updated every time the program is executed.
+•	Once a new year begins, checks all memberships and changes them to executive or regular based on if the membership owner has paid their subscription fees.
+Definition of Done:
+•	A file containing all paid memberships checks to see if they have paid for executive memberships.
+•	Saves the date of when membership was paid to determine the start of their rebate return.
+------------------------------------------------------------------------------------------------------------------------------------------
+As a store manager I would like the ability to determine if a membership should be recommended an Executive membership.
+Acceptance Criteria:
+•	Determine if a regular membership has reached a potential rebate return based on spending has exceeded $110.00. 
+•	If a regular member ship has reached a potential rebate return exceeding $110.00 inform me so I could send out a newsletter or email to that recipient recommending to upgrade.
+•	Inform me the amount they could have saved if they would have upgraded to be included in email/newsletter.
+Definition of Done:
+•	Have a variable that keeps track of potential rebate. Once variable values exceeds $110.00 inform the user and save membership name and email/address to a file. 
+•	This variable is set to $0.00 after new year from the start of the individual membership.
 
