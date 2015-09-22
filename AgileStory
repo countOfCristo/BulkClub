@@ -1,3 +1,4 @@
+1. 
 As a store manager of the program I would like the ability to print a detailed report of sales for any given day requested so that I may keep track of total revenue.
 Acceptance Criteria:
 •	Reports should include a list of items and quantities sold on that say.
@@ -10,6 +11,7 @@ Definition of Done:
 •	Reports can be saved to a file.
 •	Reports have a clear print format
 -------------------------------------------------------------------------------------------------------------------------------------
+2.
 As a store manager I would like the ability to request a detailed report of purchases for all members.
 Acceptance Criteria:
 •	Request a report of total purchases for all members 
@@ -24,6 +26,7 @@ Definition of Done:
 •	Save file option checks if file name already exists before saving
 •	The reports are in a clear format
 ------------------------------------------------------------------------------------------------------------------------------------------
+3.
 As a store manager I would like the option to generate a report of the quantity of each item sold.
 Acceptance Criteria:
 •	Reports generate the total of that item sold
@@ -36,6 +39,7 @@ Definition of Done:
 •	Reports are in a clear format
 •	Program checks if file name already exists prior to saving (option to overwrite file name).
 -----------------------------------------------------------------------------------------------------------------------------------------
+4.
 As a store accountant I would like to generate a report of all rebates of Executive members.
 Acceptance Criteria:
 •	Generate a report of total rebates for all executive members.
@@ -44,6 +48,7 @@ Definition of Done:
 •	The program generates and saves 
 •	The program is in a clear format
 ------------------------------------------------------------------------------------------------------------------------------------------
+5.
 As a store manager I should be able to add and delete members so that I can add new memberships and delete the ones that are no longer part of the club.
 Acceptance Criteria:
 •	An option to add a membership and include all the necessary data.
@@ -52,6 +57,7 @@ Acceptance Criteria:
 •	Adding a member will not affect previous members
 •	Deleting a member will not affect previous members
 ------------------------------------------------------------------------------------------------------------------------------------------
+6.
 As a store manager should be able to add and/or delete items so that the inventory list is up to date
 Acceptance Criteria:
 •	Adding  and deleting to the list should be simple
@@ -60,7 +66,7 @@ Definition of Done:
 •	Adding an item should not affect the previous items
 •	Deleting an item will only delete that specific item and nothing else.
 ------------------------------------------------------------------------------------------------------------------------------------------
-
+7.
 As a store manager I should be able to enter an item name and get the quantity of the item sold and the total revenue for the item so that each item is accounted for and to get the revenue of said item.
 Acceptance Criteria:
 •	An option to enter and item by name
@@ -70,6 +76,7 @@ Definition of Done:
 •	Total revenue must be accurate
 •	Quantity must be accurate
 ------------------------------------------------------------------------------------------------------------------------------------------
+8.
 As a store manager I would like the ability to save all changes between executions.
 Acceptance Criteria:
 •	I would like to save all current memberships in between each use of the program (save every time a member is deleted or added).
@@ -80,6 +87,7 @@ Definition of Done:
 •	The inventor file is updated every time a change is made.
 •	The membership file is updated every time a change is made.
 ------------------------------------------------------------------------------------------------------------------------------------------
+9.
 As a Store Accountant/Store Manager I would like the program to update automatically accounts to determine if they are executive/regular memberships. 
 Acceptance Criteria:
 •	All memberships are updated every time the program is executed.
@@ -88,6 +96,7 @@ Definition of Done:
 •	A file containing all paid memberships checks to see if they have paid for executive memberships.
 •	Saves the date of when membership was paid to determine the start of their rebate return.
 ------------------------------------------------------------------------------------------------------------------------------------------
+10.
 As a store manager I would like the ability to determine if a membership should be recommended an Executive membership.
 Acceptance Criteria:
 •	Determine if a regular membership has reached a potential rebate return based on spending has exceeded $110.00. 
