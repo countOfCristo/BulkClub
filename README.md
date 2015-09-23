@@ -1,3 +1,1 @@
 # BulkClub
-
-What is this
