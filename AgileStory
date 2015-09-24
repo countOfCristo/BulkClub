@@ -46,7 +46,7 @@ Acceptance Criteria:
 •	Report includes the addresses of members
 Definition of Done:
 •	The program generates and saves 
-•	The program is in a clear format
+•	The program is in a clear format sorted by membership number
 ------------------------------------------------------------------------------------------------------------------------------------------
 5.
 As a store manager I should be able to add and delete members so that I can add new memberships and delete the ones that are no longer part of the club.
@@ -105,4 +105,24 @@ Acceptance Criteria:
 Definition of Done:
 •	Have a variable that keeps track of potential rebate. Once variable values exceeds $110.00 inform the user and save membership name and email/address to a file. 
 •	This variable is set to $0.00 after every year from the start of the individual membership.
+------------------------------------------------------------------------------------------------------------------------------------------
+11.
+As a store manager I would like to be able to enter a month and get the list of all members whose membership expire the month
+entered as well as the cost to renew their membership.
+Acceptance Criteria:
+•	Enter a month to get a list of members whose membership expires
+• Cost for the member to renew their membership
+Definition of Done:
+•	Output all of the members whose membership expires
+• Only accept a valid date
+• If no month has expiring members, state an error to input a different month
+------------------------------------------------------------------------------------------------------------------------------------------
+12.
+As a store manager I would like the ability to determine if an executive member should convert down to regular membership
+Acceptance Criteria:
+•	Determine if the executive memberp has reached a potential rebate return based on spending has exceeded $110.00. 
+•	If the member has not exceeded the 110.00 dollar limit by the end of the year they should downgrade
+Definition of Done:
+• Be able to quickly downgrade membership
+• Change membership in the program and add the member to the executive list
 
