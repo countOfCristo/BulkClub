@@ -80,7 +80,7 @@ int main() {
 			// (Christian) - Im am sure this works. 
 			trips[i][k].price.dollars = atoi(static_cast<const char*>(line.substr(0, line.find('.')).c_str()));
 			trips[i][k].price.cents = atoi(static_cast<const char*>(line.substr(line.find('.') + 1, 2).c_str()));
-			trips[i][k].quantity = atoi(static_cast<const char*>(line.substr(line.find('.')+ 3,5).c_str()));
+			trips[i][k].quantity = atoi(static_cast<const char*>(line.substr(line.find('.')+ 3).c_str()));
 			cout << line.substr(0, line.find('.')) << "\t"
 			     << line.substr(line.find('.') + 1, 2) << " "
 			     << line.substr(line.find('.')+ 3,5)<< endl;
