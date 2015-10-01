@@ -6,6 +6,8 @@
 #include <string>
 #include <fstream>
 #include <stdlib.h>
+#include <ctime>
+#include "core/SearchForMemberExpire.h"
 #include "member/Member.h"
 #include "member/Regular.h"
 #include "member/Executive.h"
@@ -36,18 +38,19 @@ int main() {
 	num_items = 0;
 	running = true;
 
+
 	Initialize_Everything(num_days, num_members, num_items, members, trips, items, purchases_a_day);
 
 	cout << "Welcome to the program!" << endl;
 	while (running) {
-		cout << "Please select an option:" << endl;
+
 		cout << "1. Sales report for a day" << endl;
 		cout << "2. NULL" << endl;
 		cout << "3. Quantity of items" << endl;
 		cout << "4. NULL" << endl;
 		cout << "5. Memberships expiring" << endl;
-		cout << "6. Quit" << endl;
-		cin >> option;
+		cout << "6. Quit";
+		option = GetAndCheckInput(6, 1, "Enter A OPTION:");
 		switch (option) {
 		case 1:
 			cout << "Implement this guy!" << endl << endl; //christian
@@ -56,7 +59,7 @@ int main() {
 			cout << "Implement this guy!" << endl << endl; //jose
 			break;
 		case 5:
-			cout << "Implement this guy!" << endl << endl; //jonathin
+			search_for_expiration(members);
 			break;
 		case 6:
 			running = false;
