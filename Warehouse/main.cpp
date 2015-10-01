@@ -156,7 +156,9 @@ int main() {
 		cout << "1. Sales report for a day" << endl;
 		cout << "2. NULL" << endl;
 		cout << "3. Quantity of items" << endl;
-		cout << "4. Quit" << endl;
+		cout << "4. NULL" << endl;
+		cout << "5. Memberships expiring" << endl;
+		cout << "6. Quit" << endl;
 		cin >> option;
 		switch (option) {
 		case 1:
@@ -164,7 +166,11 @@ int main() {
 			break;
 		case 3:
 			cout << "Implement this guy!" << endl << endl; //jose
-		case 4:
+			break;
+		case 5:
+			cout << "Implement this guy!" << endl << endl; //jonathin
+			break;
+		case 6:
 			running = false;
 			break;
 		default:
