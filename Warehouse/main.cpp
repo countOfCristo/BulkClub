@@ -38,15 +38,6 @@ int main() {
 
 	Initialize_Everything(num_days, num_members, num_items, members, trips, items, purchases_a_day);
 
-	for (int i = 0; i < num_members; i++) {
-		if (members[i]->member_type == EXECUTIVE) {
-			temp_e = dynamic_cast<Executive *>(members[i]);
-			if (temp_e != NULL) { //don't really need this check but just in case
-				cout << temp_e->rebate_amount.dollars << "." << temp_e->rebate_amount.cents << " " << temp_e->number << endl;
-			}
-		}
-	}
-
 	cout << "Welcome to the program!" << endl;
 	while (running) {
 		cout << "Please select an option:" << endl;
