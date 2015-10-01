@@ -3,9 +3,9 @@
 
 #include <string>
 #include <iostream>
-#include "Date.h"
-#include "Price.h"
-#include "Item.h"
+#include "../util/Date.h"
+#include "../util/Price.h"
+#include "../util/Item.h"
 
 using namespace std;
 
@@ -24,7 +24,7 @@ public:
 	Date expiration_date;
 	Item *items_purchased;
 	Member() { total_spent.cents = 0; total_spent.dollars = 0; }
-	~Member() {}
+	virtual ~Member() {}
 };
 
 #endif /* MEMBER_H_ */
